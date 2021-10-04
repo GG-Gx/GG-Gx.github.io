@@ -1,0 +1,203 @@
+@font-face {
+  font-family: death;
+  src: url(font/MB-GothicDawn_Font.ttf);
+}
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+ 
+body{
+   
+  font-family: death; 
+  color: rgb(240, 152, 248) ;
+  background-image: url("https://scontent.ftxl2-1.fna.fbcdn.net/v/t39.30808-6/244415885_10228892305838411_6698214678536586980_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=19026a&_nc_ohc=Oh7vVqu9zJwAX8s-A0R&_nc_ht=scontent.ftxl2-1.fna&oh=9397c8f9f77dd4503bf957a3e87824d3&oe=615E8A49");
+  background-attachment: fixed;
+  background-size: cover;
+  /*text-shadow: 3px 3px   #000000;*/
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+nav {
+  
+ 
+  font-size: 28px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: rgb(240, 152, 248)  ;
+  
+  margin-left: 40px;
+  text-decoration: none;
+  
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+header h1 {
+    
+  font-size: 100px;
+  margin-bottom: 10px;
+  
+
+}
+
+header{
+  
+  height: 100vh;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  position: relative; 
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column; 
+}
+
+header p {
+  font-size: 37px;
+  margin: 0;
+  margin-top: 0;
+  
+  
+}
+
+.sounds-containers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 20px auto 0;
+
+}
+
+
+.project-tile {
+  margin: 10px;
+  max-width: 200px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  
+
+}
+
+.project-tile:hover {
+  transform: scale(1.1);
+}
+
+
+
+.project-tile p{
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(240, 152, 248) ;
+  
+  text-decoration: none;
+  text-align: center;
+
+  
+}
+
+
+
+h2 {
+  padding-top: 70px; 
+  padding-bottom: 70px;
+  font-size: 50px;
+  height: 10vh;
+  margin-top: 150px;
+  
+}
+
+.projects-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 20px auto 0; 
+  
+}
+
+
+
+
+
+
+section {
+  text-align: center;
+}
+
+
+.find{
+  font-size: 30px;
+}
+
+
+
+.social-links{
+  
+  text-decoration:none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: rgb(240, 152, 248) ;
+  font-size: 30px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+footer {
+  background-color:#fa0000;
+  font-size: 25px;
+  right: 0;
+  left: 0;
+  padding: 10px;
+  text-align: center; 
+  position:absolute;
+}
+
+
+
+
