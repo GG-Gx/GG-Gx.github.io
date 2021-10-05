@@ -30,7 +30,7 @@ nav {
   background-color:#fa0000 ;
   color: rgb(240, 152, 248) ;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 10px;
   position: fixed;
   top: 0;
