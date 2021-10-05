@@ -31,7 +31,7 @@ nav {
   color: rgb(240, 152, 248) ;
   display: flex;
   justify-content: flex-end;
-  padding: 15px;
+  padding: 10px;
   position: fixed;
   top: 0;
   left: 0;
@@ -41,7 +41,7 @@ nav {
 }
 
 nav a {
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(240, 152, 248);
   margin-left: 40px;
   text-decoration: none;
@@ -76,7 +76,7 @@ header h1 {
 }
 
 header p {
-  font-size: 40px;
+  font-size: 25px;
   margin: 0;
   margin-top: 0;
   
