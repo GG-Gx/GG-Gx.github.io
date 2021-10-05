@@ -43,7 +43,7 @@ nav {
 nav a {
   font-size: 20px;
   color: rgb(240, 152, 248);
-  margin-left: 40px;
+  margin-left: 25px;
   text-decoration: none;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
