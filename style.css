@@ -30,7 +30,7 @@ nav {
   background-color:#fa0000 ;
   color: rgb(240, 152, 248) ;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -43,7 +43,7 @@ nav {
 nav a {
   font-size: 20px;
   color: rgb(240, 152, 248);
-  margin-left: 25px;
+  margin-left: 17px;
   text-decoration: none;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
@@ -188,9 +188,6 @@ footer {
   display:flex;
   flex-direction: column;
 }
-
-
-
 
 
 
