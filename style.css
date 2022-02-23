@@ -83,10 +83,19 @@ header p {
   margin-right: 12px;
   margin-top: 0;
   
-  
-  
+}
+
+.bio{
+  font-size: 20px;
+  margin: 0;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 10px;
+  text-align: left
   
 }
+
+
 
 .sounds-containers{
   display: flex;
@@ -124,6 +133,7 @@ h2 {
   font-size: 50px;
   height: 10vh;
   margin-top: 150px;
+  ;
   
 }
 
@@ -137,10 +147,7 @@ h2 {
   
 }
 
-h3{
- letter-spacing: 3px;
- font-size: 26px;
-}
+
 
 
 
@@ -156,6 +163,7 @@ section {
 
 
 
+
 .social-links{
   
   text-decoration:none;
@@ -168,15 +176,33 @@ section {
   margin-bottom: 10px;
 }
 
+
+
+
+
 .social-links a {
   color: rgb(240, 152, 248) ;
   font-size: 30px;
   margin: 0 10px;
   display: inline-block;
+  
 }
 
+.links-shows {
+  letter-spacing: 3px;
+  font-size: 26px;
+  color: rgb(240, 152, 248) ;
+  text-decoration: none;
+ 
+}
 
-
+.links-shows a{
+  letter-spacing: 3px;
+  font-size: 26px;
+  color: rgb(240, 152, 248) ;
+  text-decoration: none;
+ 
+}
 
 
 
