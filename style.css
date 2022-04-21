@@ -85,16 +85,25 @@ header p {
   
 }
 
-.bio{
-  font-size: 20px;
+#bio{
+  font-size: 25px;
   margin: 0;
   margin-left: 12px;
   margin-right: 12px;
   margin-top: 10px;
-  text-align: left
+  text-align: center;
+  
+  
   
 }
 
+#bio:hover {
+font-size: 22px;
+font-family: "Lucida Console", "Courier New", monospace;
+text-decoration: none;
+text-shadow: none;
+background-color:rgba(255, 0, 0, 0.586) ;
+}
 
 
 .sounds-containers{
@@ -205,6 +214,21 @@ section {
 }
 
 
+
+
+
+
+footer {
+  background-color:#fa0000;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center; 
+  position: relative; 
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+}
 
 
 
