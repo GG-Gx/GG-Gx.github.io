@@ -206,6 +206,7 @@ section {
 }
 
 .links-shows a{
+  list-style: none;
   letter-spacing: 3px;
   font-size: 26px;
   color: rgb(240, 152, 248) ;
