@@ -198,6 +198,7 @@ section {
 }
 
 .links-shows {
+  list-style-type: none;
   letter-spacing: 3px;
   font-size: 26px;
   color: rgb(240, 152, 248) ;
