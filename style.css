@@ -104,13 +104,7 @@ text-shadow: none;
 background-color:rgba(255, 0, 0, 0.586) ;
 }
 
-#social:hover {
-font-size: 22px;
-font-family: "Lucida Console", "Courier New", monospace;
-text-decoration: none;
-text-shadow: none;
-background-color:rgba(255, 0, 0, 0.586) ;
-}
+
 
 .sounds-containers{
   display: flex;
