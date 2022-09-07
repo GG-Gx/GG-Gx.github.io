@@ -235,15 +235,3 @@ footer {
 
 
 
-footer {
-  background-color:#fa0000;
-  font-size: 25px;
-  padding: 10px;
-  text-align: center; 
-  position: relative; 
-  justify-content: center;
-  align-items: center;
-  display:flex;
-  flex-direction: column;
-}
-
