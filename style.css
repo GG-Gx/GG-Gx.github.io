@@ -198,6 +198,7 @@ section {
 }
 
 .links-shows {
+  justify-content: center;
   list-style-type: none;
   letter-spacing: 3px;
   font-size: 26px;
