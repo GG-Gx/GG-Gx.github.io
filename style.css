@@ -1,6 +1,6 @@
 @font-face {
   font-family: death;
-  src: url(font/MB-GothicDawn_Font.ttf);
+  src: url(MB-GothicDawn_Font.ttf);
 }
 
 
@@ -18,7 +18,7 @@ body{
   
   font-family: death; 
   color: rgb(240, 152, 248) ;
-  background-image:  url(background/kaos03.jpg);
+  background-image:  url(kaos03.jpg);
   background-attachment: fixed;
   background-size: auto;
   /*text-shadow: 3px 3px   #000000;*/
