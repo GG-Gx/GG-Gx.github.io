@@ -171,7 +171,12 @@ section {
   justify-content: center;
 }
 
-
+.img_ggg{
+  max-width: 100%;
+  height: auto;
+  
+  
+  }
 
 
 .social-links{
