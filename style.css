@@ -84,6 +84,16 @@ header p {
   
 }
 
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 #bio{
   font-size: 25px;
   margin: 0;
