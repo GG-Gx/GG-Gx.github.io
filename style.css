@@ -92,8 +92,9 @@ header p {
   margin: 0;
   margin-left: 12px;
   margin-right: 12px;
-  margin-top: 10px;
+  margin-top: 30px;
   text-align: center;
+  margin-bottom: 15px;
   
   
   
@@ -108,8 +109,12 @@ background-color:rgba(255, 0, 0, 0.586) ;
 }
 
 .responsive-image {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  margin: 20px auto;
+  display: block;
+  
+  box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.3);
 }
 
 .sounds-containers{
@@ -172,9 +177,14 @@ section {
 }
 
 
-.find{
+.find {
   font-size: 40px;
-  justify-content: center;
+  text-align: center; /* Center text horizontally */
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex; /* Turn the element into a flex container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
 }
 
 
@@ -225,15 +235,14 @@ section {
 
 
 footer {
-  background-color:#fa0000;
+  background-color: #fa0000;
   font-size: 25px;
   padding: 10px;
   text-align: center; 
-  position: relative; 
-  justify-content: center;
-  align-items: center;
-  display:flex;
-  flex-direction: column;
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 
